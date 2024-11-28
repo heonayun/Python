@@ -15,7 +15,7 @@ with open(file_path,mode='r') as file :
     for row in reader :
         a = row[0] 
         b = row[1]
-        c = row[2]
+        c = row[-1]
         print(a,b,c)
         years.append(int(a))
         births.append(int(b))
