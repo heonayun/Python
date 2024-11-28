@@ -19,7 +19,7 @@ with open(file_path,mode='r') as file :
         print(a,b,c)
         years.append(int(a))
         births.append(int(b))
-        merries.append(float(c))
+        merries.append(int(c))
 
 fig, ax1 = plt.subplots()
 ax1.bar(years, births, color='tan', width=0.5, label='births', alpha=0.6)
