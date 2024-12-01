@@ -89,5 +89,4 @@ ax2.legend(loc='upper right') # 두 번째 그래프에 대한 범례 위치
 plt.title("Birth Rate", fontsize=15)
 
 # 그래프 출력
->>>>>>> 92c25aa6c0802b0bc8da27cbae092e4a15175b00
 plt.show()
